@@ -40,8 +40,8 @@ pip3 install RPi-GPIO
 Run this code
 ```bash
 sudo python3 leftright.py
-Let it be running in the background 
 ```
+Let it be running in the background 
 # Possible problems
 
 Indentation error :-
