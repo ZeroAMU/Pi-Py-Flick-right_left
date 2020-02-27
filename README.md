@@ -1,6 +1,6 @@
 # Pi-Py-Flick-right_left
 Simple program for gesture control using flick lib
-# Hardware used :-
+# Hardware used
 All programs have been tested on a Raspberry Pi 4b - 4gb
 For etching the OS use BalenaEtcher
 
