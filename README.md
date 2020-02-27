@@ -20,21 +20,28 @@ If the os is anything other than raspbian, be sure to run it as root or give app
 Install pip3 by running "sudo apt install python3-pip"
 Install keyboard library "sudo pip3 install keyboard"
 Finally install the flicklibrary with :-
+```bash
 sudo git clone https://github.com/PiSupply/Flick.git 
 sudo cd Flick/flick 
+```
 sudo python setup.py install 
 # Step3
 Clone this repository into Flick/flick
+```bash
 git clone https://https://github.com/ZeroAMU/Pi-Py-Flick-right_left.git
+```
 # Step4
 Move leftright.py and keyboard.py to Flick/flick
 Then, if on ubuntu or any non raspbian os run the following code:-
+```bash
 pip3 install RPi-GPIO
+```
 # Step5
 Run this code
+```bash
 sudo python3 leftright.py
 Let it be running in the background 
-
+```
 # Possible problems
 
 Indentation error :-
@@ -46,5 +53,4 @@ Try installing flicklib keyboard and RPi-GPIO properly
 No access to i2c :-
 Go to the config file and find dtparam=i2c..... and uncomment it.
 Then goto etc/module.conf and add i2c-dev
-
-#                                                            Thank you
+#                                                           Thank you
