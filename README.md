@@ -10,9 +10,8 @@
 #install pip3 by running "sudo apt install python3-pip"
 #install keyboard library "sudo pip3 install keyboard"
 #finally install the flicklibrary
-#"sudo git clone https://github.com/PiSupply/Flick.git
-# sudo cd Flick/flick
-# sudo python setup.py install"
+#"sudo git clone https://github.com/PiSupply/Flick.git""sudo cd Flick/flick" "sudo python setup.py install"
+
  
 #step3
 #clone this repository into Flick/flick
